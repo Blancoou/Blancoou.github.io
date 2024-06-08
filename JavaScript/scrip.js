@@ -19,7 +19,7 @@ const spanishContent = {
     idioma: "English",
     button: "Button in English"
   };
-  
+  //Opción de cambiar de español a inglés
   idiomaDropdownLinks.forEach(link => {
     link.addEventListener('click', (event) => {
       event.preventDefault();
